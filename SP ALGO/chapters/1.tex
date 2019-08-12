@@ -92,4 +92,56 @@ Hasilnya  di Mozilla Akan mucul seperti ini :
 \includegraphics[scale=0.3]{figures/3hasil.PNG}
 \caption{Navigator Pada Alamat Kantor}
 \end{figure}
+\\
+
+Masukkan code berikut untuk test navigator ke halaman panduan Registrasi:
+\begin{verbatim}
+  browser.find_element_by_link_text('Registrasi').click()
+\end{verbatim}
+
+Hasilnya  di Google Chrome Akan mucul seperti ini :
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{figures/1pdregis.PNG}
+\caption{Halaman Panduan Registrasi}
+\end{figure}
+\\\\\\\\
+
+Masukkan code berikut untuk test menampilkan pilihan pendaftaran:
+\begin{verbatim}
+  browser.find_element_by_link_text('Daftar').click()
+\end{verbatim}
+
+Hasilnya  di Google Chrome Akan mucul seperti ini :
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{figures/2daftar.PNG}
+\caption{Tombol navigasi Daftar}
+\end{figure}
+\\
+
+Masukkan code berikut untuk test memilih Daftar member:
+\begin{verbatim}
+  browser.find_element_by_link_text('Daftar Member').click()
+\end{verbatim}
+
+Hasilnya  di Google Chrome Akan mucul seperti ini :
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{figures/3daftar.PNG}
+\caption{Halaman Daftar Member}
+\end{figure}
+\\\\\\\\\\\\\\\\
+
+Masukkan code berikut untuk test navigator ke halaman Contact Center:
+\begin{verbatim}
+  browser.find_element_by_link_text('Contact Center').click()
+\end{verbatim}
+
+Hasilnya  di Google Chrome Akan mucul seperti ini :
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.3]{figures/4kontak.PNG}
+	\caption{Halaman Contact Center}
+\end{figure}
 
